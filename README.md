@@ -68,7 +68,8 @@ Deployment	CMD/Terminal, Docker (optional)
 Environment	Python virtualenv (.venv)
 Project Structure
 Vault Health & Reserve Monitoring/
-<img width="799" height="624" alt="image" src="https://github.com/user-attachments/assets/58522264-efa9-4881-8bb1-3373c672aa4e" />
+<img width="799" height="624" alt="image" src="https://github.com/user-attachments/assets/4a00963a-2ef6-4ab2-9f8f-226631e88619" />
+
 
 Step-by-Step Implementation (What i Did)
 1. Project Setup
