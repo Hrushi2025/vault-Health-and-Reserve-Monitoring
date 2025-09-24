@@ -1,0 +1,34 @@
+# Data handling
+pandas
+numpy
+
+# Database
+SQLAlchemy
+PyMySQL
+
+# Machine Learning
+scikit-learn
+xgboost
+prophet
+
+# Optional Deep Learning
+tensorflow
+torch
+
+# API Development
+fastapi
+uvicorn
+
+# Visualization
+matplotlib
+seaborn
+plotly
+dash
+
+# Utilities
+python-dotenv
+joblib
+jupyter
+
+# Optional caching
+redis
