@@ -1,5 +1,8 @@
 Vault Health & Reserve Monitoring
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/05771e1a-ebcf-4d67-ab60-2ff9cbf4d3fe" />
+
+
 An AI-powered system to monitor vault health, predict redemption surges, detect liquidity gaps, and assess partner performance with dashboards, alerts, and automated retraining.
 
 Project Description
@@ -68,8 +71,9 @@ Deployment	CMD/Terminal, Docker (optional)
 Environment	Python virtualenv (.venv)
 Project Structure
 Vault Health & Reserve Monitoring/
-<img width="799" height="624" alt="image" src="https://github.com/user-attachments/assets/4a00963a-2ef6-4ab2-9f8f-226631e88619" />
 
+
+<img width="1184" height="864" alt="aifiesta-download-1758790012596" src="https://github.com/user-attachments/assets/0db8e290-cac0-4609-8d34-943a116d752b" />
 
 Step-by-Step Implementation (What i Did)
 1. Project Setup
