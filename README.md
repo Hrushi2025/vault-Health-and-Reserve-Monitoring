@@ -2,14 +2,15 @@ Vault Health & Reserve Monitoring
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/05771e1a-ebcf-4d67-ab60-2ff9cbf4d3fe" />
 
-
 An AI-powered system to monitor vault health, predict redemption surges, detect liquidity gaps, and assess partner performance with dashboards, alerts, and automated retraining.
-
+---
 Project Description
 
 This project simulates a real-world vault monitoring system. It generates synthetic vault transaction data, trains machine learning models, forecasts liquidity, scores vault partners, and provides predictions and visualizations via a dashboard.
 
 It is designed to help admins make informed decisions, predict high redemptions, detect gaps in vault reserves, and monitor partner vaults.
+
+---
 
 Key Features
 
@@ -24,6 +25,8 @@ Automated Alerts: Send Slack/email alerts if thresholds are exceeded.
 Interactive Dashboard: Streamlit dashboard for admins to visualize metrics and predictions.
 
 Retraining Pipeline: Periodic retraining updates models with latest data.
+
+---
 
 Technology Stack
 Component	Technology / Library
@@ -40,11 +43,15 @@ Vault Health & Reserve Monitoring
 
 An AI-powered system to monitor vault health, predict redemption surges, detect liquidity gaps, and assess partner performance with dashboards, alerts, and automated retraining.
 
+---
+
 Project Description
 
 This project simulates a real-world vault monitoring system. It generates synthetic vault transaction data, trains machine learning models, forecasts liquidity, scores vault partners, and provides predictions and visualizations via a dashboard.
 
 It is designed to help admins make informed decisions, predict high redemptions, detect gaps in vault reserves, and monitor partner vaults.
+
+---
 
 Key Features
 
@@ -59,7 +66,6 @@ Automated Alerts: Send Slack/email alerts if thresholds are exceeded.
 Interactive Dashboard: Streamlit dashboard for admins to visualize metrics and predictions.
 
 Retraining Pipeline: Periodic retraining updates models with latest data.
-
 Technology Stack
 Component	Technology / Library
 ML/AI	Python, scikit-learn, Prophet, XGBoost
@@ -72,7 +78,7 @@ Environment	Python virtualenv (.venv)
 Project Structure
 Vault Health & Reserve Monitoring/
 
-
+----
 <img width="1184" height="864" alt="aifiesta-download-1758790012596" src="https://github.com/user-attachments/assets/0db8e290-cac0-4609-8d34-943a116d752b" />
 
 Step-by-Step Implementation (What i Did)
@@ -84,6 +90,8 @@ Virtual environment .venv created for dependency management.
 
 Installed Python packages: pandas, numpy, scikit-learn, prophet, xgboost, fastapi, uvicorn, streamlit, joblib.
 
+---
+
 2. Data Generation
 
 Generated synthetic vault transaction data:
@@ -92,6 +100,8 @@ Columns: date, vault_id, partner_id, redemption_amount, refill_amount.
 
 Stored in data/vault_transactions.csv.
 
+---
+
 3. Database Integration
 
 Connected to MySQL to store and query transactions.
@@ -99,6 +109,8 @@ Connected to MySQL to store and query transactions.
 Used SQLAlchemy for safe database connection.
 
 Loaded synthetic data automatically into MySQL tables.
+
+---
 
 4. Data Preprocessing & Feature Engineering
 
@@ -110,6 +122,8 @@ Partner performance scoring.
 
 Time-series forecasting.
 
+---
+
 5. ML Model Training
 
 RandomForest Regression trained to predict redemption surges.
@@ -120,6 +134,8 @@ Models saved in models/ folder (redemption_model.pkl).
 
 Example predictions performed to verify model performance.
 
+---
+
 6. Retraining & Alerts
 
 retrain.py script:
@@ -129,6 +145,8 @@ Retrains models periodically.
 Sends Slack/email alerts if thresholds exceeded.
 
 Stores updated models and forecasts.
+
+---
 
 7. Deployment & Visualization
 
@@ -172,6 +190,8 @@ Usage Instructions
 
 Clone the repository.
 
+---
+
 Create a virtual environment and install dependencies:
 
 python -m venv .venv
@@ -183,10 +203,13 @@ Generate or load synthetic data in data/.
 
 Run Jupyter notebook notebooks/setupOfProject.ipynb to train models and visualize results.
 
+---
+
 Start FastAPI server:
 
 uvicorn deploy.api:app --reload
 
+---
 
 Open Streamlit dashboard:
 
@@ -230,6 +253,8 @@ Interactive Streamlit dashboard.
 Alerts via Slack/email.
 
 Deployment-ready structure for future production.
+
+---
 
 Step-by-Step Implementation (What We Did)
 1. Project Setup
@@ -240,6 +265,8 @@ Virtual environment .venv created for dependency management.
 
 Installed Python packages: pandas, numpy, scikit-learn, prophet, xgboost, fastapi, uvicorn, streamlit, joblib.
 
+---
+
 2. Data Generation
 
 Generated synthetic vault transaction data:
@@ -248,6 +275,8 @@ Columns: date, vault_id, partner_id, redemption_amount, refill_amount.
 
 Stored in data/vault_transactions.csv.
 
+---
+
 3. Database Integration
 
 Connected to MySQL to store and query transactions.
@@ -255,6 +284,8 @@ Connected to MySQL to store and query transactions.
 Used SQLAlchemy for safe database connection.
 
 Loaded synthetic data automatically into MySQL tables.
+
+---
 
 4. Data Preprocessing & Feature Engineering
 
@@ -266,6 +297,8 @@ Partner performance scoring.
 
 Time-series forecasting.
 
+---
+
 5. ML Model Training
 
 RandomForest Regression trained to predict redemption surges.
@@ -276,6 +309,8 @@ Models saved in models/ folder (redemption_model.pkl).
 
 Example predictions performed to verify model performance.
 
+---
+
 6. Retraining & Alerts
 
 retrain.py script:
@@ -285,6 +320,8 @@ Retrains models periodically.
 Sends Slack/email alerts if thresholds exceeded.
 
 Stores updated models and forecasts.
+
+---
 
 7. Deployment & Visualization
 
@@ -328,6 +365,8 @@ Usage Instructions
 
 Clone the repository.
 
+---
+
 Create a virtual environment and install dependencies:
 
 python -m venv .venv
@@ -343,6 +382,7 @@ Start FastAPI server:
 
 uvicorn deploy.api:app --reload
 
+---
 
 Open Streamlit dashboard:
 
@@ -386,3 +426,5 @@ Interactive Streamlit dashboard.
 Alerts via Slack/email.
 
 Deployment-ready structure for future production.
+
+---
